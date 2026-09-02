@@ -1,0 +1,17 @@
+{
+  "name": "@barpos/escpos-lan",
+  "version": "0.1.0",
+  "description": "iPad 局域网 ESC/POS 58mm 打印机 Capacitor 插件",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "private": true,
+  "license": "MIT",
+  "peerDependencies": {
+    "@capacitor/core": ">=8.0.0"
+  },
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  }
+}
